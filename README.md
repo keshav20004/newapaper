@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LiveHindustan Clone (Next.js)
 
-## Getting Started
+A responsive front-end news portal application built with Next.js, mimicking the layout and functionality of [LiveHindustan](https://www.livehindustan.com/). This project focuses on performance, SEO, and modern React patterns.
 
-First, run the development server:
+**[View Live Demo](https://your-vercel-link-here.app)** *(Replace with your Vercel URL)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Core Functionality
+- **Dynamic Routing:** Individual pages for every news article (`/article/[id]`).
+- **Next.js Image Optimization:** efficient loading of images with layout shift protection.
+- **Responsive Design:** Fully fluid layout that adapts from Desktop (3-column grid) to Mobile (single column).
+- **SEO Ready:** Meta tags and dynamic titles for better search engine visibility.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Technical Implementation
+- **Data Fetching:** Uses **Incremental Static Regeneration (ISR)** via `getStaticProps`.
+  - *Why?* Allows the site to be ultra-fast (static HTML) but still update content in the background every 60 seconds without rebuilding the whole site.
+- **Styling:** Built with **Tailwind CSS** for rapid UI development and consistent design tokens.
+- **Mock API:** Simulates a real backend using a structured JSON data model.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework:** [Next.js](https://nextjs.org/) (React)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment:** [Vercel](https://vercel.com/)
+- **Language:** JavaScript (ES6+)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ⚙️ Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Follow these steps to run the project locally on your machine.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/live-hindustan-clone.git](https://github.com/YOUR_USERNAME/live-hindustan-clone.git)
+   cd live-hindustan-clone
+   
